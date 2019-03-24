@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - vision_conversion_trig",
+            "request": "launch",
+            "mainClass": "vision_conversion_trig",
+            "projectName": "javatests_8cc573c8"
+        }
+    ]
+}

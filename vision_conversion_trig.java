@@ -1,18 +1,13 @@
-import java.math.*;
 
 
 public class vision_conversion_trig{
-
     public static void main(String[] args) {
 
         double[] xyskew = convertTrig(new double[] {-18, 90, -20});
 
-
-
         System.out.println(xyskew[0]);
         System.out.println(xyskew[1]);
         System.out.println(xyskew[2]);
-
     }
 
     public static double[] convertTrig(double[] robotRelative){
