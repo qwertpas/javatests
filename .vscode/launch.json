@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ThreadTesting",
+            "request": "launch",
+            "mainClass": "ThreadTesting",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - vision_conversion_trig",
             "request": "launch",
             "mainClass": "vision_conversion_trig",

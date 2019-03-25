@@ -25,7 +25,6 @@ public class vision_conversion_trig{
         double s2 = (h + s1) * (180/Math.PI);  //skew in degrees (directly facing target is 0, to the right is positive)
 
         return new double[] {a2, b2, s2}; //new x, y, skew
-
     }
     
 }
