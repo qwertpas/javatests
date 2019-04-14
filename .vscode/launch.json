@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RealPIDsim",
+            "request": "launch",
+            "mainClass": "RealPIDsim",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - realPIDsim",
+            "request": "launch",
+            "mainClass": "realPIDsim",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DriveFunc",
             "request": "launch",
             "mainClass": "DriveFunc",
