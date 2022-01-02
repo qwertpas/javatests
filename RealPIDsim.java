@@ -5,7 +5,7 @@ public class RealPIDsim {
     static double kP = 50;//30
     static double kI = 0;
     static double kD = 60;//30
-    static double kF = 4000;//30
+    static double kF = 5000;//30
 
 	static final double kineFric = 4000;
     static final double statFric = 0;
@@ -23,15 +23,12 @@ public class RealPIDsim {
     static double F = 0;
     static double target;
     static double error;
-
-	static Plant plant;
     
 
 
     public static void main(String[] args){
         
-        RealPIDsim sim = new RealPIDsim();
-        plant = sim.new Plant("plant");
+        Plant plant = new Plant("plant");
         double lasttime = System.nanoTime(); 
         
 
@@ -69,7 +66,7 @@ public class RealPIDsim {
         }
     } //END main()
 
-    public class Plant implements Runnable{
+    public static class Plant implements Runnable{
 
         private boolean exit;
         private String name;
@@ -85,8 +82,6 @@ public class RealPIDsim {
         public void run(){
             double lasterror = target;
             double lasttime = System.nanoTime(); 
-            
-
             while(!exit) {
                 /** PID CODE HERE */
                 double time = System.nanoTime();

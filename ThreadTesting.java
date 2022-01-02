@@ -17,8 +17,8 @@ public class ThreadTesting {
         }
     }
 
-    int port = 6006;
-    String tcp_ip = "127.0.0.1";
+    int port = 6005;
+    String tcp_ip = "frcvision.local";
     InetAddress address;
     Socket socket;
     Scanner in;

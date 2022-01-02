@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SimpleThreading2",
+            "request": "launch",
+            "mainClass": "SimpleThreading2",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleThreading",
+            "request": "launch",
+            "mainClass": "SimpleThreading",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TurncenterSwerve",
+            "request": "launch",
+            "mainClass": "TurncenterSwerve",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PassByReference",
+            "request": "launch",
+            "mainClass": "PassByReference",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DiffModule",
+            "request": "launch",
+            "mainClass": "DiffModule",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sentence",
+            "request": "launch",
+            "mainClass": "Sentence",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RealPIDsim",
             "request": "launch",
             "mainClass": "RealPIDsim",
