@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RootFinder",
+            "request": "launch",
+            "mainClass": "RootFinder",
+            "projectName": "javatests_8cc573c8"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SimpleThreading2",
             "request": "launch",
             "mainClass": "SimpleThreading2",
